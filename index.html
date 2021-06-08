@@ -16,26 +16,26 @@
   <link id='testcss' type="text/css" rel="stylesheet" href="testing.css">
   
   <!-- Places an icon in the tab, feel free to create your own! -->
-
-  <link rel="icon" href="../media/borderCollieC.png" type="image/x-icon">
+  <link rel="icon" href="../media/borderCollieC.png" type="image/x-icon">   
+  <!--<link rel="icon" href="../media/borderCollieC.png" type="image/png"/>-->
   <!-- Javascript, you can have more than one. -->
   <script src='wireframe.js'></script>
 
-  <div id='header'>
+  <header>
     <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
-    <div><img src='../media/RMIT-Logo.png' alt='RMIT University logo' height=80 />Ida Gange</div>
-  </div>
+    <img src='../media/RMIT-Logo.png' alt='RMIT University logo' height=80 /><i><b>Ida Gange</b></i>
+  </header>
 
 </head>
 
 <body>
 
-  <div id='nav'>
+  <nav>
     Assignments:
     <!-- link locations: relative to current directory -->
     <ul>
+      <li><a href="a1/index.php" target="_blank">A1b</a></li>
       <li><a href="a2/index.php" target="_blank">A2</a></li>
-      <li><a href="a3/index.php" target="_blank">A3</a></li>
     </ul> |
     <!-- link locations: relative to e54061's public_html directory -->
     <a href="/~e54061/wp" target="_blank">Course Homepage</a> |
@@ -43,9 +43,10 @@
     <a href="/~e54061/secure" target="_blank">Secure Resources Area</a> |
     <!-- link location: external -->
     <a href='https://drive.google.com/open?id=1uSRn6PHDcpsUtmFQ6MPMM-g2go4o22VP' target="_blank">Course Materials</a>
-  </div>
+  </nav>
 
-  <div id='main'>
+
+  <main>
     <article id='about-me'>
       <h2>About me</h2>
       <p>
@@ -54,44 +55,46 @@
       <section id="more-about-me">
         
         <h3>Who is your tutor / instructor</h3>
-        <div>My instructor is Trevor Reynolds</div>
+        <p>My instructor is Trevor Reynolds</p>
 
         <h3>Who is your labber / workshopper</h3>
-        <div>My Labber/Workshopper is Srikanth</div>
+        <p>My Labber/Workshopper is Srikanth</p>
 
         <h3>Have you any programming or web design experience?</h3>
-        <div>No</div>
+        <p>No</p>
 
         <h3>Do you see yourself as a programmer, designer, or both?</h3>
-        <div>Perhaps both</div>
+        <p>Perhaps both</p>
 
         <h3>What has brought you to this course at RMIT?</h3>
-        <div>A love of learning and of IT</div>
+        <p>A love of learning and of IT</p>
 
         <h3>What are you hoping to get out of the course?</h3>
-        <div>Skills and confidence</div>
+        <p>Skills and confidence</p>
 
         <h3>What websites do you use the most?</h3>
-        <div>Khan Academy</i></div>
+        <p>Khan Academy</p>
 
         <h3>Do you have any interests or hobbies?</h3>
-        <div>Lots</div>
+        <p>Lots</p>
         
       </section>
     </article>
     
-    <aside>
-      <div align='center'>Deprecated code sample.</div>
+    <aside>    
+         <img src='../media/website-under-construction.png' alt='Website Under Construction image'/>
     </aside>
-    
-  </div>
 
-</body>
+  </main>
 
-  <div id=footer>
+  <footer>
     &copy; Ida Gange
     <script>document.write(new Date().getFullYear());</script><noscript>1989</noscript>.
-    Put your git repo link here (important!) and other links if you wish. <button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button>
-  </div>
+    <p>My git repo can be found at: https://github.com/gangsjou/wp</p>
+    <p>My webpage can be found at: https://titan.csit.rmit.edu.au/~s3338810/wp</p>
+    <button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button>
+  </footer>
+
+</body>
 
 </html>
